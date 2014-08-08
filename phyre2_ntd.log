@@ -1,0 +1,94 @@
+25/07/2014 21:38:48 : INFO  : Run start: Fri Jul 25 21:38:48 BST 2014
+25/07/2014 21:38:48 : INFO  : Initialised job
+25/07/2014 21:38:48 : INFO  : Initialised job:
+Sequence
+>Beta-Catenin_NTD
+MATQADLMELDMAMEPDRKAAVSHWQQQSYLDSGIHSGATTTAPSLSGKGNPEEEDVDTS
+QVLYEWEQGFSQSFTQEQVADIDGQYAMTRAQRVRAAMFPETLDEGMQIPSTQFDAAHPT
+NVQRLAEPSQMLKHAVVNLINYQDDAEL
+
+25/07/2014 21:38:48 : INFO  : Checked sequence
+25/07/2014 21:38:48 : INFO  : Finding homologues with PSI-BLAST
+25/07/2014 21:38:48 : INFO  : PSI-BLAST 3 iterations
+25/07/2014 21:39:25 : INFO  : PSI-BLAST 5 iterations
+25/07/2014 21:39:44 : INFO  : Finished PSI-BLAST
+25/07/2014 21:39:44 : INFO  : Running Buildali to generate a3m file
+25/07/2014 21:41:45 : INFO  : Converting to HMM
+25/07/2014 21:41:45 : INFO  : Calibrating HMM
+25/07/2014 21:41:50 : INFO  : Searching HMM database
+25/07/2014 21:45:18 : INFO  : Finished buildali
+25/07/2014 21:45:18 : INFO  : Predicting secondary structure
+25/07/2014 21:45:18 : INFO  : Predicted secondary structure (PSI-Pred)
+25/07/2014 21:45:18 : INFO  : Predicting Disordered regions
+25/07/2014 21:45:18 : INFO  : Predicted Disorder (Disopred)
+25/07/2014 21:45:18 : INFO  : Running memsat_svm check
+25/07/2014 21:45:59 : INFO  : Globular protein
+25/07/2014 21:45:59 : INFO  : Predicted Transmembrane (memsat_svm) ID '64e2a11712a48413'
+25/07/2014 21:45:59 : INFO  : Initialising fold library search
+25/07/2014 21:45:59 : INFO  : Initialised search input
+25/07/2014 21:45:59 : INFO  : Building Ensemble models
+25/07/2014 21:45:59 : INFO  : Building hh.c4onsB_.model.1.pdb
+25/07/2014 21:46:00 : INFO  : Building hh.c2g57A_.model.2.pdb
+25/07/2014 21:46:00 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/64e2a11712a48413/hh.c2g57A_.model.2.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/64e2a11712a48413/c2g57A_.3.pdb
+25/07/2014 21:46:00 : INFO  : Building c4onsB_.1.pdb
+25/07/2014 21:46:00 : INFO  : Building c1dowB_.2.pdb
+25/07/2014 21:46:00 : INFO  : Building c2g57A_.3.pdb
+25/07/2014 21:46:01 : INFO  : Building c3r4dD_.4.pdb
+25/07/2014 21:46:01 : INFO  : Building d2nrka1.5.pdb
+25/07/2014 21:46:01 : INFO  : Building c2e6gI_.6.pdb
+25/07/2014 21:46:02 : INFO  : Building d1j9ja_.7.pdb
+25/07/2014 21:46:02 : INFO  : Building d1zela2.8.pdb
+25/07/2014 21:46:02 : INFO  : Building d2ezwa1.9.pdb
+25/07/2014 21:46:03 : INFO  : Building c2qf4A_.10.pdb
+25/07/2014 21:46:03 : INFO  : Building c4fetA_.11.pdb
+25/07/2014 21:46:03 : INFO  : Building d1l5xa_.12.pdb
+25/07/2014 21:46:04 : INFO  : Building c2bx9J_.13.pdb
+25/07/2014 21:46:04 : INFO  : Building c2v4oB_.14.pdb
+25/07/2014 21:46:04 : INFO  : Building c2phjA_.15.pdb
+25/07/2014 21:46:05 : INFO  : Building c1zelA_.16.pdb
+25/07/2014 21:46:05 : INFO  : Building c4b6xB_.17.pdb
+25/07/2014 21:46:05 : INFO  : Building c4lwoG_.18.pdb
+25/07/2014 21:46:06 : INFO  : Building c2as9B_.19.pdb
+25/07/2014 21:46:06 : INFO  : Building c4f55A_.20.pdb
+25/07/2014 21:46:07 : INFO  : Finished HH model building
+25/07/2014 21:46:07 : INFO  : html domain output complete ID '64e2a11712a48413'
+25/07/2014 21:46:14 : INFO  : Running loop modelling on c4onsB_.1.pdb
+25/07/2014 21:46:17 : INFO  : Running loop modelling on c1dowB_.2.pdb
+25/07/2014 21:46:22 : INFO  : Running loop modelling on c2g57A_.3.pdb
+25/07/2014 21:46:22 : INFO  : Running loop modelling on c3r4dD_.4.pdb
+25/07/2014 21:46:22 : INFO  : Running loop modelling on d2nrka1.5.pdb
+25/07/2014 21:46:22 : INFO  : Running loop modelling on c2e6gI_.6.pdb
+25/07/2014 21:46:23 : INFO  : Running loop modelling on d1j9ja_.7.pdb
+25/07/2014 21:46:26 : INFO  : Running loop modelling on d1zela2.8.pdb
+25/07/2014 21:46:26 : INFO  : Running loop modelling on d2ezwa1.9.pdb
+25/07/2014 21:46:26 : INFO  : Running loop modelling on c2qf4A_.10.pdb
+25/07/2014 21:46:36 : INFO  : Running loop modelling on c4fetA_.11.pdb
+25/07/2014 21:46:36 : INFO  : Running loop modelling on d1l5xa_.12.pdb
+25/07/2014 21:46:36 : INFO  : Running loop modelling on c2bx9J_.13.pdb
+25/07/2014 21:46:37 : INFO  : Running loop modelling on c2v4oB_.14.pdb
+25/07/2014 21:46:37 : INFO  : Running loop modelling on c2phjA_.15.pdb
+25/07/2014 21:46:40 : INFO  : Running loop modelling on c1zelA_.16.pdb
+25/07/2014 21:46:40 : INFO  : Running loop modelling on c4b6xB_.17.pdb
+25/07/2014 21:46:48 : INFO  : Running loop modelling on c4lwoG_.18.pdb
+25/07/2014 21:46:50 : INFO  : Running loop modelling on c2as9B_.19.pdb
+25/07/2014 21:47:46 : INFO  : Running loop modelling on c4f55A_.20.pdb
+25/07/2014 21:47:46 : INFO  : hhscores now
+25/07/2014 21:47:46 : INFO  : c4onsB_ being hashed to 1
+25/07/2014 21:47:46 : INFO  : c2g57A_ being hashed to 3
+25/07/2014 21:47:46 : INFO  : Skipping hh.c4onsB_.model.1.pdb
+25/07/2014 21:47:46 : INFO  : Skipping hh.c2g57A_.model.2.pdb
+25/07/2014 21:57:04 : WARN  : 93 percent of springs active
+
+25/07/2014 21:57:04 : WARN  : 44 percent of springs active
+
+25/07/2014 21:57:04 : WARN  : 32 percent of springs active
+
+25/07/2014 21:57:04 : WARN  : 12 percent of springs active
+
+25/07/2014 21:57:04 : WARN  : 8 percent of springs active
+
+25/07/2014 21:57:04 : INFO  : Chose Poing model 00035 as best Jury score
+25/07/2014 21:57:04 : INFO  : PoingMM finished ID '64e2a11712a48413'
+25/07/2014 21:57:04 : INFO  : Running Pulchra
+25/07/2014 21:57:20 : INFO  : Adding sidechains to model(s)
+25/07/2014 21:57:20 : INFO  : Run end  : Fri Jul 25 21:57:20 BST 2014
