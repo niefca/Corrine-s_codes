@@ -51,3 +51,12 @@ gen_seed = 30
 ld_seed = 130
 comm_mode = angular ; center of mass velocity removal. Make sure you select what is proper for your simulation.
 ;NOTE on comm_mode: When using periodic boundary conditions, which improves the speed of neighbor searching, removing the angular velocity will lead to a warning at the grompp stage of simulations. So long as the box size is properly sized, such that your system does not cross the boundaries, then this warning is harmless and you can simply issue -maxwarn X, where X is the number of allowed warning messages. 
+
+
+
+;in order to run use these in the command line
+;             grompp -f mdpfile.mdp -c BCT.gro -p BCT.top -o run.tpr -maxwarn 1
+;             mdrun -s run.tpr -table table.xvg -tablep table.xvg -noddcheck
+;in order to extend simulation run this
+;             gmx convert-tpr -s run.tpr -extend 20000 -o run01.tpr 
+;             mdrun -s run01.tpr -table table.xvg -tablep table.xvg -cpi state.cpt -append -noddcheck 
