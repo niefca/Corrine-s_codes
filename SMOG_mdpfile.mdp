@@ -54,6 +54,7 @@ comm_mode = angular ; center of mass velocity removal. Make sure you select what
 
 
 
+
 ;in order to run use these in the command line
 ;             grompp -f mdpfile.mdp -c BCT.gro -p BCT.top -o run.tpr -maxwarn 1
 ;             mdrun -s run.tpr -table table.xvg -tablep table.xvg -noddcheck
