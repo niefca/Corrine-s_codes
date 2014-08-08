@@ -1,0 +1,279 @@
+25/07/2014 21:43:15 : INFO  : Run start: Fri Jul 25 21:43:15 BST 2014
+25/07/2014 21:43:15 : INFO  : Initialised job
+25/07/2014 21:43:15 : INFO  : Initialised job:
+Sequence
+>Beta-Catenin_CTD
+TEPMAWNETADLGLDIGAQGEPLGYRQDDPSYRSFHSGGYGQDALGMDPMMEHEMGGHHP
+GADYPVDGLPDLGHAQDLMDGLPPGDSNQLAWFDTDL
+
+25/07/2014 21:43:15 : INFO  : Checked sequence
+25/07/2014 21:43:15 : INFO  : Finding homologues with PSI-BLAST
+25/07/2014 21:43:15 : INFO  : PSI-BLAST 3 iterations
+25/07/2014 21:43:44 : INFO  : PSI-BLAST 5 iterations
+25/07/2014 21:44:13 : INFO  : Finished PSI-BLAST
+25/07/2014 21:44:13 : INFO  : Running Buildali to generate a3m file
+25/07/2014 21:45:48 : INFO  : Converting to HMM
+25/07/2014 21:45:49 : INFO  : Calibrating HMM
+25/07/2014 21:45:51 : INFO  : Searching HMM database
+25/07/2014 21:47:59 : INFO  : Finished buildali
+25/07/2014 21:47:59 : INFO  : Predicting secondary structure
+25/07/2014 21:48:00 : INFO  : Predicted secondary structure (PSI-Pred)
+25/07/2014 21:48:00 : INFO  : Predicting Disordered regions
+25/07/2014 21:48:00 : INFO  : Predicted Disorder (Disopred)
+25/07/2014 21:48:00 : INFO  : Running memsat_svm check
+25/07/2014 21:52:08 : INFO  : Globular protein
+25/07/2014 21:52:08 : INFO  : Predicted Transmembrane (memsat_svm) ID '32e3e7e48f0d13ff'
+25/07/2014 21:52:08 : INFO  : Initialising fold library search
+25/07/2014 21:52:08 : INFO  : Initialised search input
+25/07/2014 21:52:08 : INFO  : Building Ensemble models
+25/07/2014 21:52:09 : INFO  : Building hh.d1c7ka_.model.1.pdb
+25/07/2014 21:52:09 : INFO  : Building d1c7ka_.1.pdb
+25/07/2014 21:52:09 : INFO  : Building c2lkjA_.2.pdb
+25/07/2014 21:52:10 : INFO  : Building c2rnoA_.3.pdb
+25/07/2014 21:52:10 : INFO  : Building d1iioa_.4.pdb
+25/07/2014 21:52:10 : INFO  : Building c2v5iA_.5.pdb
+25/07/2014 21:52:11 : INFO  : Building c4iiwB_.6.pdb
+25/07/2014 21:52:11 : INFO  : Building c3hv0A_.7.pdb
+25/07/2014 21:52:12 : INFO  : Building d2fmra_.8.pdb
+25/07/2014 21:52:12 : INFO  : Building c4l0nG_.9.pdb
+25/07/2014 21:52:12 : INFO  : Building d2ysca1.10.pdb
+25/07/2014 21:52:13 : INFO  : Building d2cpqa1.11.pdb
+25/07/2014 21:52:13 : INFO  : Building c3i05B_.12.pdb
+25/07/2014 21:52:14 : INFO  : Building c2qdrA_.13.pdb
+25/07/2014 21:52:14 : INFO  : Building c2hc9A_.14.pdb
+25/07/2014 21:52:14 : INFO  : Building c1skzA_.15.pdb
+25/07/2014 21:52:15 : INFO  : Building d2cc6a1.16.pdb
+25/07/2014 21:52:15 : INFO  : Building c2i9iA_.17.pdb
+25/07/2014 21:52:15 : INFO  : Building d2i9ia1.18.pdb
+25/07/2014 21:52:16 : INFO  : Building c1r6uB_.19.pdb
+25/07/2014 21:52:16 : INFO  : Building c2jo8B_.20.pdb
+25/07/2014 21:52:17 : INFO  : Finished HH model building
+25/07/2014 21:52:17 : INFO  : html domain output complete ID '32e3e7e48f0d13ff'
+25/07/2014 21:52:36 : INFO  : Running loop modelling on d1c7ka_.1.pdb
+25/07/2014 21:52:44 : INFO  : Running loop modelling on c2lkjA_.2.pdb
+25/07/2014 21:52:44 : INFO  : Running loop modelling on c2rnoA_.3.pdb
+25/07/2014 21:52:49 : INFO  : Running loop modelling on d1iioa_.4.pdb
+25/07/2014 21:52:52 : INFO  : Running loop modelling on c2v5iA_.5.pdb
+25/07/2014 21:52:56 : INFO  : Running loop modelling on c4iiwB_.6.pdb
+25/07/2014 21:52:58 : INFO  : Running loop modelling on c3hv0A_.7.pdb
+25/07/2014 21:52:58 : INFO  : Running loop modelling on d2fmra_.8.pdb
+25/07/2014 21:52:58 : INFO  : Running loop modelling on c4l0nG_.9.pdb
+25/07/2014 21:52:59 : INFO  : Running loop modelling on d2ysca1.10.pdb
+25/07/2014 21:52:59 : INFO  : Running loop modelling on d2cpqa1.11.pdb
+25/07/2014 21:52:59 : INFO  : Running loop modelling on c3i05B_.12.pdb
+25/07/2014 21:53:03 : INFO  : Running loop modelling on c2qdrA_.13.pdb
+25/07/2014 21:53:03 : INFO  : Running loop modelling on c2hc9A_.14.pdb
+25/07/2014 21:53:03 : INFO  : Running loop modelling on c1skzA_.15.pdb
+25/07/2014 21:53:04 : INFO  : Running loop modelling on d2cc6a1.16.pdb
+25/07/2014 21:53:04 : INFO  : Running loop modelling on c2i9iA_.17.pdb
+25/07/2014 21:53:04 : INFO  : Running loop modelling on d2i9ia1.18.pdb
+25/07/2014 21:53:07 : INFO  : Running loop modelling on c1r6uB_.19.pdb
+25/07/2014 21:53:08 : INFO  : Running loop modelling on c2jo8B_.20.pdb
+25/07/2014 21:53:09 : INFO  : hhscores now
+25/07/2014 21:53:09 : INFO  : d1c7ka_ being hashed to 1
+25/07/2014 21:53:09 : INFO  : Skipping hh.d1c7ka_.model.1.pdb
+25/07/2014 23:20:42 : WARN  : 98 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 30 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 32 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 24 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 19 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 16 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 14 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 11 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 8 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 9 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 8 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 8 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 7 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 7 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 6 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 6 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 5 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 5 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 4 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 4 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 3 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 2 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:42 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 1 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:43 : WARN  : 0 percent of springs active
+
+25/07/2014 23:20:52 : INFO  : Chose Poing model 00021 as best Jury score
+25/07/2014 23:20:52 : INFO  : PoingMM finished ID '32e3e7e48f0d13ff'
+25/07/2014 23:20:52 : INFO  : Running Pulchra
+25/07/2014 23:21:00 : INFO  : Adding sidechains to model(s)
+25/07/2014 23:21:00 : INFO  : Run end  : Fri Jul 25 23:21:00 BST 2014
